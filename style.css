@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    width: 1600px;
+    height: 100vh;
+}
+.hero-text img{
+    position: absolute;
+    z-index: 20;
+    top: 230px;
+    left: 406px;
+}
+.img1{
+    position: absolute;
+    z-index: 2;
+    opacity: 0.29;
+}
+.img2{
+    position: absolute;
+}
+.navbar{
+    position: absolute;
+    z-index: 99;
+    width: 1600px;
+    top:10px
+}
+.logo{
+    float: left;
+    padding-left: 300px;
+}
+.menu{
+    float: right;
+    padding-right: 300px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding-right: 10px;
+}
+.menu ul a{
+    color:white;
+}
